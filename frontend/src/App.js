@@ -11,9 +11,8 @@ function App() {
   return (
     <Router>
       <Header />
-      <main>
+      <main className='py-5'>
         <Container>
-          <h1>Here is my app!</h1>
           <Route path='/' component={HomeScreen} exact />
           <Route path='/signup' component={SignUpScreen} />
           <Route path='/signin' component={SignInScreen} />
